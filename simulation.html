@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EV Charging - Simulation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Fuzzy Charging Simulation</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="simulation.html">Simulation</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Simulation Model Overview</h2>
+    <img src="images/fuzzy.png" alt="Fuzzy Logic" class="simulation-img">
+    <p>In this simulation, the system reads grid voltage and EV state of charge to adjust the charging rate without external internet signals.</p>
+    <ul>
+      <li>Grid Voltage Low → Charging reduced</li>
+      <li>Grid Voltage Stable → Charging maximized</li>
+      <li>Fully Charged → Charging stopped</li>
+    </ul>
+  </main>
+</body>
+</html>
